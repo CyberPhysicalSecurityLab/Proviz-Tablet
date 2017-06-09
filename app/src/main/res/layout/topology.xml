@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/outsideLayout"
+    android:background="#d8d8d8"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/activity_main">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tablet"
+            android:foregroundGravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/tablet"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tablet"
+            android:text="Tablet"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/absLayout">
+        </AbsoluteLayout>
+    </RelativeLayout>
+</RelativeLayout>

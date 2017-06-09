@@ -1,2 +1,2 @@
-# Proviz-Tablet
-Proviz Android Tablet Software Repository
+# Proviz-Android
+# Proviz-Android

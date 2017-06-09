@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Proviz</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="ip_welcome">Hello Proviz User, My name is Berke I am going to assist you for tablet integration with Desktop App Thank you for using Proviz Tablet Application. Before starting application there are few things to do.</string>
+</resources>

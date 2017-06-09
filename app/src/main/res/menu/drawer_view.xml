@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_topology_fragment"
+            android:icon="@drawable/p_view_icon"
+            android:title="Topology View"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_table_fragment"
+            android:icon="@drawable/menu"
+            android:title="Data Table View" />
+        <item
+            android:id="@+id/nav_ip_fragment"
+            android:icon="@drawable/i_p_address_icon"
+            android:title="What is my IP Address" />
+    </group>
+</menu>

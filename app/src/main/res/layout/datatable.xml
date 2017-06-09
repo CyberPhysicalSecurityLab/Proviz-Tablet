@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+android:background="@drawable/highlight"
+tools:context="com.csl.proviz.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Device" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Sensor Name"
+        android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_weight="2"
+        android:layout_alignParentTop="true"
+        />
+        <!--
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        -->
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Data Name"
+        android:id="@+id/textView2"
+       android:layout_weight="2"
+        android:textSize="20sp"
+      />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/imageButton"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:paddingBottom="40dp"-->
+            <!--android:paddingTop="30dp"-->
+            <!--android:src="@mipmap/sort_up" />-->
+
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Value"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_weight="2"
+        android:id="@+id/textView4"
+        android:textSize="20sp"
+    />
+
+    <!--<ImageButton-->
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:paddingBottom="40dp"-->
+        <!--android:paddingTop="30dp"-->
+        <!--android:id="@+id/limitsort"-->
+        <!--android:src="@mipmap/sort_down"-->
+     <!--/>-->
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Message"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_weight="2"
+        android:minLines="1"
+        android:maxLines="1"
+      />
+
+
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/rvContacts"
+    android:layout_marginStart="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:scrollbars="vertical"
+        android:layout_below="@+id/firstLayout" />
+
+
+
+
+</RelativeLayout>
+
+
+
