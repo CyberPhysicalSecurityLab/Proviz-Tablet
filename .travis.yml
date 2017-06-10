@@ -12,6 +12,11 @@ android:
   - android-25
   - extra-android-m2repository
   - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
+  licences:
+  - 'android-sdk-preview-license-.+'
+  - 'android-sdk-license-.+'
+  - 'intel-android-extra-license.+'
+
 script:
   - ./gradlew build jacocoTestReport assembleAndroidTest
   - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
